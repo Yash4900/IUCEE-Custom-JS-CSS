@@ -19,9 +19,16 @@ jQuery(document).ready(function( $ ){
     $(this).attr("placeholder","Only Alphabets Allowed!");
 }); 
   /*Validation For phone number*/  
-  $("#nf-field-116, #nf-field-79, #nf-field-68, #nf-field-86").change(function(){
+  $("#nf-field-198, #nf-field-116, #nf-field-79, #nf-field-68, #nf-field-86").change(function(){
   var str = $(this).val();
-  if(str.length<10){
+    var reg = /(^[+])([\d]{2})([-]{1})([\d]{10})/g;
+    var res = reg.test(str);
+    if(res==false){
+      txt = "";
+      $(this).attr("value",txt);
+      $(this).attr("placeholder","Enter valid phone number");
+    }
+  /*if(str.length<10){
     $(this).val("");
     $(this).attr("placeholder","Minimum length should be 10 digits");
   }
@@ -35,11 +42,8 @@ jQuery(document).ready(function( $ ){
     }
   }else{
     txt = "";
-  }
-    $(this).attr("value",txt);
-    $(this).attr("placeholder","Enter valid number-You can use digits,+,-,(,)");
-  }
-});    
+  }*/
+}); 
   /*Validation for Date*/  
 $('#nf-field-164, #nf-field-183, #nf-field-184').change(function(){
     var GivenDate = $(this).val();
