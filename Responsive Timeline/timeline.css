@@ -1,0 +1,256 @@
+.commonborder{
+    border-radius: 50%;
+    border: 1px solid #8A8C8E;
+  }
+  .relpos{
+    position: relative;
+  }
+  .abspos {
+    position: absolute;
+  }
+  .middlecirc {
+    background-color: #8A8C8E;
+  }
+  .smallccommon {
+    border-radius: 50%;
+    background-color: #F08021;
+  }
+  .ttextcommon {
+    font-size: 9px;
+    font-family: verdana;
+    position: relative;
+    font-weight: bold;
+    color: black;
+  }
+  .outer5 {
+    width: 44px;
+    height: 44px;
+  }
+  .outer4 {
+    top: 1px;
+    left: 1px;
+    width: 40px;
+    height: 40px;
+  }
+  .outer3 {
+    top: 3px;
+    left: 3px;
+    width: 32px;
+    height: 32px;
+  }
+  .outer2 {
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  .outer1 {
+    top: 1px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+  }
+  .outer1:before {
+    position: absolute;
+    border: 1px solid #F08021;
+    width: 0;
+    height: 40px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    top: -35px;
+    margin-left: -1px;
+  }
+  .smallc {
+    top: -15px;
+    left: 18.5px;
+    height: 10px;
+    width: 10px;
+  }
+  .container {
+    position: relative;
+  }
+  .cwv {
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: -80px;
+    position: relative;
+    height: 100px;
+    width: 110px;
+  }
+  .ywv {
+    font-family: verdana;
+    color: #F08021;
+    margin-left: 7px;
+    font-weight: bold;
+  }
+  .ywva{
+    margin-top: 18px;  
+  }
+  .ywvb{
+    margin-top: 8px;  
+  }
+  .ywvc{
+    margin-top: 14px;
+  }	
+  .ywvittc{
+    margin-top: 7.5px;
+  }
+  .ywvls{
+    margin-top: 18.5px;
+  }	
+  .ttextb {
+    margin-bottom: 22px;
+  }
+  .ttextm {
+    margin-bottom: 30px;
+  }
+  .ttexts {
+    margin-bottom: 32px;
+  }
+  .outer5a {
+    width: 26px;
+    height: 26px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+  }
+  .outer4a {
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  .outer3a {
+    top: 1px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+  }
+  .outer2a {
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+  }
+  .outer1a {
+    top: 1px;
+    left: 1px;
+    width: 6px;
+    height: 6px;
+  }
+  .outer1a:before {
+    position: absolute;
+    border: 1px solid #F08021;
+    width: 0;
+    height: 35px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    top: -35px;
+    margin-left: -1px;
+  }
+  .smallca {
+    top: -18px;
+    left: 19.5px;
+    height: 8px;
+    width: 8px;
+  }
+  .outer5b {
+    width: 32px;
+    height: 32px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+  }
+  .outer4b {
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+  }
+  .outer3b {
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  .outer2b {
+    top: 1px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+  }
+  .outer1b {
+    top: 1px;
+    left: 1px;
+    width: 12px;
+    height: 12px;
+  }
+  .outer1b:before {
+    position: absolute;
+    border: 1px solid #F08021;
+    width: 0;
+    height: 35px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    top: -35px;
+    margin-left: -1px;
+  }
+  .smallcb {
+    top: -18px;
+    left: 22px;
+    height: 8.5px;
+    width: 8.5px;
+  }
+  .line {
+    border-top: 3px dashed #8A8C8E;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+  }
+  .testscroll {
+    margin-left: 5px;
+    overflow-x: scroll;
+    position: relative;
+    height: 225px;
+    display: flex;
+    overflow-x: hidden;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    margin-top: 60px;
+    position: absolute;
+  }
+  .right {
+    top: 35px;
+    right: 1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    z-index: 65;
+  }
+  .left {
+    top: 35px;
+    left: 1px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    z-index: 65;
+  }
+  @media only screen and (min-width: 1123px) {
+    .arrow {
+     border: 0px;
+    }
+  }
+  @media only screen and (max-width: 1123px){
+    .testscroll{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
